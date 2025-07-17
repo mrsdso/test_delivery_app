@@ -1,0 +1,18 @@
+{
+  "id": 45,
+  "transport_model": 1,
+  "vehicle_number": "V01, 6",
+  "service": 2,
+  "packaging": 1,
+  "status": 1,
+  "tech_state": 1,
+  "distance_km": "12.5",
+  "send_time": "2025-07-16T23:38:57.792Z",
+  "delivery_time": "2025-07-16T23:38:57.792Z",
+  "from_address": "Москва",
+  "to_address": "Москва",
+  "media_file": "media_files/12345.pdf",
+  "log_file": "log_files/12345.csv",
+  "comment": "Комментарий к доставке",
+  "created_by_name": "Иван Иванов"
+}
