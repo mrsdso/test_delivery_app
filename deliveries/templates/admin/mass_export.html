@@ -1,0 +1,9 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+  <h1>Массовый экспорт всех справочников</h1>
+  <form method="post">
+    {% csrf_token %}
+    <button type="submit" class="button">Экспортировать все данные</button>
+  </form>
+{% endblock %}

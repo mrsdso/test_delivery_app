@@ -13,7 +13,7 @@ export default function Login() {
     setLoading(true);
     setError('');
     try {
-      const response = await axios.post('http://localhost:8000/api/token/', {
+      const response = await axios.post('http://185.23.236.113:8000/api/token/', {
         username,
         password,
       });

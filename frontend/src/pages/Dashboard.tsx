@@ -58,7 +58,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     // Загрузка справочников с указанием порта Django
-    const API = "http://localhost:8000/api";
+    const API = "http://185.23.236.113:8000/api";
     axios.get(`${API}/transportmodels/`).then(res => setTransportModels(res.data));
     axios.get(`${API}/packagings/`).then(res => setPackagings(res.data));
     axios.get(`${API}/services/`).then(res => setServices(res.data));
